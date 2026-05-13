@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-base: #06060c;
+  --bg-panel: #0c0c14;
+  --bg-elevated: #14141f;
+  --border: #20202c;
+  --border-hot: #383848;
+  --text-primary: #ecedf3;
+  --text-muted: #9094a8;
+  --text-dim: #555867;
+  --accent: #a78bfa;
+  --accent-2: #60a5fa;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --info: #06b6d4;
+
+  --agent-orchestrator: #a78bfa;
+  --agent-order: #60a5fa;
+  --agent-refund: #10b981;
+  --agent-faq: #f59e0b;
+  --agent-human: #ef4444;
+}
+
+html, body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle dot-grid texture on base */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.025) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--border-hot); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+/* Selection */
+::selection { background: rgba(167, 139, 250, 0.3); color: var(--text-primary); }
+
+/* Subtle focus rings */
+*:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

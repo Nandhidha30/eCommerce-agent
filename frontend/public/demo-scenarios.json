@@ -1,0 +1,10 @@
+[
+  { "id": "demo_1", "label": "Track order ORD-001", "message": "Where is my order ORD-001?", "icon": "package" },
+  { "id": "demo_2", "label": "Refund my order ORD-002", "message": "Please refund my order ORD-002, the item was damaged.", "icon": "credit-card" },
+  { "id": "demo_3", "label": "I need a $600 refund for ORD-003", "message": "Refund ORD-003 for $600 immediately.", "icon": "alert-circle" },
+  { "id": "demo_4", "label": "Refund order ORD-005, it's a digital download", "message": "I want a refund for ORD-005. It's a digital download.", "icon": "x-circle" },
+  { "id": "demo_5", "label": "What is your return policy?", "message": "How many days do I have to return an item?", "icon": "book-open" },
+  { "id": "demo_6", "label": "How long does shipping take?", "message": "How long does standard shipping usually take to arrive?", "icon": "truck" },
+  { "id": "demo_7", "label": "I want to speak to a human", "message": "Agent please. Talk to a human now.", "icon": "user" },
+  { "id": "demo_8", "label": "Loop Test", "message": "Refund ORD-002 refund ORD-002 refund ORD-002", "icon": "repeat" }
+]
