@@ -72,15 +72,4 @@ npm run dev
 - **Next.js 14 + Zustand**: The cockpit requires complex state hydration from streaming events; Zustand efficiently handles deeply nested event arrays without Redux boilerplate. Framer Motion visualizes the graph without D3 overhead.
 - **SQLite + FAISS**: Lightweight zero-setup dependencies ideal for local evaluation without Docker.
 
-## 7. Screenshots
-![Cockpit UI Placeholder](/placeholder-cockpit.png)
-*Figure 1: Main Cockpit showing real-time agent reasoning trace.*
 
-![Monitoring Placeholder](/placeholder-monitoring.png)
-*Figure 2: Real-time KPIs and Guardrail Analytics.*
-
-![Replay Placeholder](/placeholder-replay.png)
-*Figure 3: Run History and 4x Replay Mode.*
-
-![Guardrail Placeholder](/placeholder-guardrail.png)
-*Figure 4: Financial Guardrail Trigger Event.*
